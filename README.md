@@ -27,7 +27,6 @@
             <ul>
                 <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>
-g src="https://github.com/seymasedayukseloglu/Proje-Odevi/assets/148879631/2b44c8cb-1be6-4c3b-bc4a-8fd1848ad8b2.png" alt="Labirent Ekran Görüntüsü" style="max-width: 50%; height: auto;">
         </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
