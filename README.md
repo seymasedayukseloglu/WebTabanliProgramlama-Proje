@@ -64,6 +64,8 @@
                 <li><strong>İçerik ve Özellikler:</strong> Giriş Formu, Hesap Oluşturma Bağlantısı, Şifreyi Unuttum Bağlantısı</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, ASP.NET</li>
             </ul>   
+             <img src="https://github.com/user-attachments/assets/91bcc86d-a156-4118-8bc0-cf2985dc77ba" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
+             <img src="https://github.com/user-attachments/assets/fefe5997-904c-4731-a042-6dc52f00fd51" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
          <article id="admin-panel">
             <h3>6. Admin Paneli Sayfası</h3>
