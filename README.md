@@ -14,14 +14,11 @@
         <h2>Proje Hakkında</h2>
         <p>Blossom Boutique, çiçek ve çiçek buketi satışı için tasarlanmış modern bir web platformudur. Kullanıcılar, farklı kategorilerdeki çiçekleri inceleyebilir, kendi buketlerini oluşturabilir ve hızlı bir şekilde sipariş verebilir. Bu proje, çiçek alışverişini daha keyifli ve kolay hale getirmek amacıyla geliştirilmiştir.</p>
     </section>
-     <section id="project-video">
-        <h2>Proje Videosu</h2>
-        <p>Projemizin tanıtım videosunu aşağıdan izleyebilirsiniz:</p>
-        <video width="640" height="360" controls>
-            <source src="project-video.mp4" type="video/mp4">
-            Tarayıcınız video formatını desteklemiyor.
-        </video>
-    </section>
+   <section id="project-video">
+    <h2>Proje Videosu</h2>
+    <p>Projemizin tanıtım videosunu aşağıdaki bağlantıya tıklayarak izleyebilirsiniz:</p>
+    <a href="https://www.youtube.com/watch?v=6VYztxT7TaY" target="_blank">Proje Tanıtım Videosu</a>
+</section>
     <section id="pages">
         <h2>Sayfalar</h2>
  <article id="home">
