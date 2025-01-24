@@ -29,7 +29,8 @@
         <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
         <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
     </ul>
-        <img src="https://raw.githubusercontent.com/kullanici-adi/depo-adi/main/gorsel.png" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
+        <img src="https://raw.githubusercontent.com/kullanici-adi/depo-![home](https://github.com/user-attachments/assets/601faece-294e-4ff6-962a-50088af55851)
+adi/main/gorsel.png" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
 </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
