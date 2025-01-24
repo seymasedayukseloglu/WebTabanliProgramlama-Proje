@@ -33,7 +33,6 @@
         <figcaption>Home Sayfası Görseli</figcaption>
     </figure>
 </article>
-
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
             <p><strong>Genel Açıklama:</strong> Shop sayfası, kullanıcıların ürünleri görüntüleyebildiği, filtreleme ve sıralama gibi işlemleri gerçekleştirebildiği, ayrıca ürün detaylarına ulaşabildiği bir sayfadır.</p>
