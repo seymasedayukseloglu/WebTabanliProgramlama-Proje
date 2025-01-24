@@ -16,12 +16,12 @@
     </section>
     <section id="pages">
         <h2>Sayfalar</h2>
-        <article id="admin-panel">
-            <h3>1. Admin Paneli Sayfası</h3>
-            <p><strong>Genel Açıklama:</strong> Admin Paneli sayfası, site yönetimi için kullanılan bir paneldir. Admin kullanıcıları bu sayfadan ürün ekleyebilir, mevcut ürünleri yönetebilir, kullanıcıları kontrol edebilir ve site ayarlarına erişebilirler.</p>
+ <article id="home">
+            <h3>1. Home Sayfası</h3>
+            <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
             <ul>
-                <li><strong>İçerik ve Özellikler:</strong> Admin Girişi, Ürün Yönetimi, Kullanıcı Yönetimi</li>
-                <li><strong>Kullanılan Teknolojiler:</strong> ASP.NET MVC, HTML/CSS</li>
+                <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
+                <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>
             </ul>
         </article>
         <article id="shop">
@@ -56,31 +56,23 @@
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, ASP.NET</li>
             </ul>
         </article>
-        <article id="home">
-            <h3>6. Home Sayfası</h3>
-            <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
+         <article id="admin-panel">
+            <h3>6. Admin Paneli Sayfası</h3>
+            <p><strong>Genel Açıklama:</strong> Admin Paneli sayfası, site yönetimi için kullanılan bir paneldir. Admin kullanıcıları bu sayfadan ürün ekleyebilir, mevcut ürünleri yönetebilir, kullanıcıları kontrol edebilir ve site ayarlarına erişebilirler.</p>
             <ul>
-                <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
-                <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>
-            </ul>
-        </article>
-        <article id="admin-panel-overview">
-            <h3>7. Admin Paneli Sayfası (Özet)</h3>
-            <p><strong>Genel Bakış:</strong> Blossom Boutique Admin Paneli sayfası, yöneticilerin kullanıcıları ve ürünleri yönetmelerini sağlar.</p>
-            <ul>
-                <li><strong>Özellikler:</strong> Başlık Bölümü, Gezinme Menüsü, Admin Paneli Banner'ı</li>
-                <li><strong>Kullanılan Teknolojiler:</strong> HTML, CSS, Bootstrap</li>
+                <li><strong>İçerik ve Özellikler:</strong> Admin Girişi, Ürün Yönetimi, Kullanıcı Yönetimi</li>
+                <li><strong>Kullanılan Teknolojiler:</strong> ASP.NET MVC, HTML/CSS</li>
             </ul>
         </article>
         <article id="product-management">
-            <h3>8. Ürün Yönetim Paneli</h3>
+            <h3>7. Ürün Yönetim Paneli</h3>
             <p><strong>Genel Bakış:</strong> Admin panelinde ürün yönetimi yapılır, yeni ürün eklenebilir ve mevcut ürünler silinebilir.</p>
             <ul>
                 <li><strong>Özellikler:</strong> Başarı Mesajı, Ürün Ekleme Formu, Ürün Listesi</li>
             </ul>
         </article>
         <article id="user-management">
-            <h3>9. Kullanıcılar Listesi</h3>
+            <h3>8. Kullanıcılar Listesi</h3>
             <p><strong>Genel Bakış:</strong> Admin, siteye kayıtlı tüm kullanıcıları görüntüleyebilir ve yönetebilir.</p>
             <ul>
                 <li><strong>Özellikler:</strong> Kullanıcı Listesi, Başarı Mesajı</li>
