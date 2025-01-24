@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f4f0;
+            color: #4b4b4b;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #f7e3c0;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #6d6a5d;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 0;
+        }      
+
+        .logo {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .logo h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #6d6a5d;
+            letter-spacing: 2px;
+            margin: 0;
+            transition: all 0.3s ease;
+        }
+
+        .logo h1:hover {
+            color: #CD8899;
+            transform: scale(1.1);
+        }
+
+        .menu-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
+            margin-left: 100px;
+
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #6d6a5d;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 14px 25px;
+            display: block;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .menu a:hover {
+            color: #fff;
+            background-color: #CD8899;
+            transform: scale(1.1);
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .icon img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 35%;
+            padding: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .icon img:hover {
+            transform: scale(1.2);
+            background-color: #CD8899;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .hero-content {
+            position: relative;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .hero button {
+            background-color: #CD8899;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero button:hover {
+            background-color: #CD8899;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 400px;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300%;
+        }
+
+        .carousel-slide {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-buttons button {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .about-section {
+            text-align: center;
+            margin: 50px 0;
+            padding: 20px;
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            color: #3a3a3a;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            color: #666;
+            max-width: 900px;
+            margin: 0 auto 20px;
+        }
+
+        .services-section {
+            background-color: #f1f1f1;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #3a3a3a;
+        }
+
+        .services-item:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+
+        .services-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .services-item {
+            width: 30%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .services-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .services-item h3 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #6d6a5d;
+        }
+
+        .services-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+
+        .contact-section {
+            background-color: #CD8899;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .contact-section a {
+            background-color: #fff;
+            color: #8c7e72;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-section a:hover {
+            background-color: #343730;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+
+        footer a {
+            color: #CD8899;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+     <header>
+        <p>Place an order online for February 14th | Call us at (800) 555-1234</p>
+    </header>
+    <div class="logo">
+        <h1> Blossom Boutique </h1>
+        <div class="menu-wrapper">
+            <div class="menu">
+                <a href="@Url.Action("Index", "Home")">Home</a>
+                <a href="@Url.Action("Index", "Product")">Shop</a>
+                <a href="@Url.Action("Index", "AboutUs")">About Us</a>
+                <a href="@Url.Action("Index", "Contact")">Contact</a>
+
+
+            </div>
+            <div class="icon">
+                <a href="@Url.Action("", "")">
+                    <img src="images/arama.png" alt="Arama">
+                </a>
+                <a href="@Url.Action("Girisyap", "User")">
+                    <img src="images/login.png" alt="Login">
+                </a>
+                <a href="@Url.Action("", "")">
+                    <img src="images/sepet.png" alt="Sepet">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-slide">
+                    <img src="images/foto.jpg" alt="Our journey">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/foto.jpg" alt="Our team">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/flowers.jpg" alt="Our flowers">
+                </div>
+            </div>
+            <div class="carousel-buttons">
+                <button id="prev">&#9664;</button>
+                <button id="next">&#9654;</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <h2>Our Story</h2>
+        <p>Blossom Boutique was founded in 2025, inspired by the timeless and captivating beauty of nature. We believe
+            that each flower tells a unique story, and through our arrangements, we strive to bring that story to life,
+            adding a touch of elegance and joy to life's most special moments.</p>
+        <p>Since our inception, we have focused on the belief that flowers are not just aesthetic elements, but also
+            carriers of emotions, messages, and memories. Each of our floral creations is crafted to embody a feeling, a
+            story, or a cherished memory. Whether it's a wedding, birthday, corporate event, or simply sending a note of
+            gratitude to a loved one, every arrangement we design is made with care and attention to detail, almost as
+            if it were a piece of art.</p>
+        <p>Our mission is to offer more than just visual beauty; we aim to create deeply meaningful, personalized
+            designs that immortalize special moments. At Blossom Boutique, we don’t just offer flowers; we provide the
+            story behind every bloom, ensuring that our clients experience something truly unforgettable.</p>
+        <p>We are grateful for all who have joined us on this journey, and we look forward to creating many more
+            unforgettable memories together.</p>
+    </div>
+
+    <div class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="services-item">
+                <img src="images/design.jpg" alt="Custom Floral Designs">
+                <h3>Custom Floral Designs</h3>
+                <p>Personalized floral arrangements tailored to your special occasion.</p>
+            </div>
+            <div class="services-item">
+                <img src="images/event.jpg" alt="Event Decor">
+                <h3>Event Decor</h3>
+                <p>Complete floral decorations for weddings, parties, and corporate events.</p>
+            </div>
+            <div class="services-item">
+                <img src="images/teslimat.jpg" alt="Flower Delivery">
+                <h3>Flower Delivery</h3>
+                <p>Same-day delivery service for all your floral needs, locally and beyond.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h2>Interested in Working With Us?</h2>
+        <p>Let's make your event unforgettable with our exquisite floral designs. Contact us today to discuss your
+            ideas.</p>
+        <a href="@Url.Action("Contact", "Home")">Get in Touch</a>
+    </div>
+
+    <footer>
+        <div
+            style="background-color: #fff; padding: 30px 20px; text-align: center; color: #777; border-top: 1px solid #ddd;">
+            <div style="margin-bottom: 20px;">
+                <p style="font-size: 18px; font-weight: bold; color: #6d6a5d;">Download Our Mobile App</p>
+                <img src="images/qr.png" alt="QR Kod ile İndirin" style="width: 100px; margin: 10px auto;">
+                <p style="font-size: 14px; color: #777;">Download our app now with a QR code.</p>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; margin-bottom: 30px;">
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Useful
+                        Information</h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Flower Care</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Order Update
+                                Processes</a>
+                        </li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Seasonal Flowers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Corporate
+                    </h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">About us</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Career Opportunities</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Personal Data</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Special
+                        Occasions
+                    </h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Valentine's Day</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Mother's Day</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Christmas Gifts</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="font-size: 14px; color: #777; margin-top: 20px;">
+                <p>&copy; Blossom Boutique | Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

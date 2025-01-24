@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Florals.styles.css" asp-append-version="true" />
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        footer {
+            border-top: none !important;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            color: #333;
+        }
+
+        nav ul li a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

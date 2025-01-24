@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Florals.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Florals.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\Fresh Send Flowers \uD83C\uDF38.jpg",
+      "PackagePath": "staticwebassets\\images\\Fresh Send Flowers \uD83C\uDF38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\arama.png",
+      "PackagePath": "staticwebassets\\images\\arama.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\bouquet.jpg",
+      "PackagePath": "staticwebassets\\images\\bouquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\design.jpg",
+      "PackagePath": "staticwebassets\\images\\design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\event.jpg",
+      "PackagePath": "staticwebassets\\images\\event.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\flowers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\foto.jpg",
+      "PackagePath": "staticwebassets\\images\\foto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\foto1.jpg",
+      "PackagePath": "staticwebassets\\images\\foto1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\gifts.jpg",
+      "PackagePath": "staticwebassets\\images\\gifts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\login.png",
+      "PackagePath": "staticwebassets\\images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product.jpg",
+      "PackagePath": "staticwebassets\\images\\product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\08ee5355-cf7e-4468-864c-554a661c8a38.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\08ee5355-cf7e-4468-864c-554a661c8a38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\0ba3d18d-399f-4b83-89d3-fcfd3ad1c3b7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\0ba3d18d-399f-4b83-89d3-fcfd3ad1c3b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\2a6c06d8-1c01-47a2-8d3a-4a35cdca68e3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\2a6c06d8-1c01-47a2-8d3a-4a35cdca68e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\330fc94b-3d8e-4eb6-921b-20c5738325c0.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\330fc94b-3d8e-4eb6-921b-20c5738325c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\42af59d5-c078-49c8-84c8-611e6f7469b8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\42af59d5-c078-49c8-84c8-611e6f7469b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\58b97ea8-1c7a-48f0-a813-7ca737e1fc20.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\58b97ea8-1c7a-48f0-a813-7ca737e1fc20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\6451cc5c-1389-464b-8315-18125b4d14eb.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\6451cc5c-1389-464b-8315-18125b4d14eb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\6abaf738-918c-47ba-9281-44150eee9e7b.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\6abaf738-918c-47ba-9281-44150eee9e7b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\70c34691-80a3-4178-aa56-75ef05e01055.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\70c34691-80a3-4178-aa56-75ef05e01055.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\851a2b4a-e95c-4204-bf58-6026cb20c93b.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\851a2b4a-e95c-4204-bf58-6026cb20c93b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\9ed6348b-bd02-419e-ad74-72bda1c8894f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\9ed6348b-bd02-419e-ad74-72bda1c8894f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\Ekran görüntüsü 2024-10-16 193257.png",
+      "PackagePath": "staticwebassets\\images\\product\\Ekran görüntüsü 2024-10-16 193257.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\a.png",
+      "PackagePath": "staticwebassets\\images\\product\\a.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\a1faaa70-c387-480a-8b2e-4b5dbb214d88.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\a1faaa70-c387-480a-8b2e-4b5dbb214d88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\b1bb56a8-2984-48c2-a76f-cbf11fded7ae.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b1bb56a8-2984-48c2-a76f-cbf11fded7ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\product\\eb92598f-948c-4bb4-9e9f-8448e594cde2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\eb92598f-948c-4bb4-9e9f-8448e594cde2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\qr.png",
+      "PackagePath": "staticwebassets\\images\\qr.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\sepet.png",
+      "PackagePath": "staticwebassets\\images\\sepet.png"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\team.jpg",
+      "PackagePath": "staticwebassets\\images\\team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\teslimat.jpg",
+      "PackagePath": "staticwebassets\\images\\teslimat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\images\\weddings.jpg",
+      "PackagePath": "staticwebassets\\images\\weddings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\videos\\content1.mp4",
+      "PackagePath": "staticwebassets\\videos\\content1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\videos\\content2.mp4",
+      "PackagePath": "staticwebassets\\videos\\content2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\seyma\\Desktop\\Proje\\Florals\\wwwroot\\videos\\content3.mp4",
+      "PackagePath": "staticwebassets\\videos\\content3.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Florals.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Florals.props",
+      "PackagePath": "build\\Florals.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Florals.props",
+      "PackagePath": "buildMultiTargeting\\Florals.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Florals.props",
+      "PackagePath": "buildTransitive\\Florals.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

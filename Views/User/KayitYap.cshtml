@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<div class="container" id="container">
+    <div class="form-container sign-up">
+        <form action="/User/KayitYap" method="post">
+            <h1>Create Account</h1>
+            <span>Use your email and password to sign up</span>
+
+            <input type="text" name="Name" placeholder="Name" required>
+
+            <input type="email" name="Email" placeholder="Email" required>
+
+            <input type="password" name="Password" placeholder="Password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        @if (!string.IsNullOrEmpty(ViewBag.Error))
+        {
+            <div class="error-message">
+                <p>@ViewBag.Error</p>
+            </div>
+        }
+    </div>
+</div>

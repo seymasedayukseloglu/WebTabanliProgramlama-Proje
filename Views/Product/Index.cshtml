@@ -1,0 +1,420 @@
+@model IEnumerable<Florals.Models.Product>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f4f0;
+            color: #4b4b4b;
+        }
+
+        header {
+            background-color: #f7e3c0;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #6d6a5d;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .logo h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #6d6a5d;
+            letter-spacing: 2px;
+            margin: 0;
+            transition: all 0.3s ease;
+        }
+
+        .logo h1:hover {
+            color: #CD8899;
+            transform: scale(1.1);
+        }
+
+        .menu-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
+            margin-left: 3px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-grow: 1;
+            margin-right: 10px;
+            padding-left: 150px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #6d6a5d;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 14px 25px;
+            display: block;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .menu a:hover {
+            color: #fff;
+            background-color: #CD8899;
+            transform: scale(1.1);
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .icon img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 35%;
+            padding: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .icon img:hover {
+            transform: scale(1.2);
+            background-color: #CD8899;
+        }
+
+
+        .main-container {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .form-sidebar {
+            width: 40%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-size: 16px;
+            font-weight: bold;
+            color: #6d6a5d;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .form-group select,
+        .form-group input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f7f4f0;
+            color: #6d6a5d;
+        }
+
+        .form-group input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .form-group button {
+            background-color: #CD8899;
+            color: white;
+            border: none;
+          
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            
+            
+        }
+
+        
+
+        .shop-items {
+             
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+       .shop-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shop-item h4,
+.shop-item p {
+    margin-bottom: 1px;
+}
+
+.shop-item img {
+        
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.shop-item .price {
+  position: static;
+    font-size: 20px;
+    color: #6d6a5d;
+    margin-bottom: -3px;
+     transform: translateX(-10%);
+
+}
+
+.shop-item .price,
+.shop-item button {
+    display: inline-block;
+    margin-right: 100px; 
+}
+
+.shop-item button {
+    position: absolute;
+    bottom: 10px;
+    left: 80%;
+    transform: translateX(-80%);
+    background-color: #CD8899;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents text wrapping */
+    transition: all 0.3s ease;
+}
+
+
+    </style>
+</head>
+
+<body>
+     <header>
+        <p>Place an order online for February 14th | Call us at (800) 555-1234</p>
+    </header>
+
+    <div class="logo">
+        <h1>Blossom Boutique</h1>
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu">
+            <a href="@Url.Action("Index", "Home")">Home</a>
+            <a href="@Url.Action("Index", "Product")">Shop</a>
+            <a href="@Url.Action("Index", "AboutUs")">About Us</a>
+            <a href="@Url.Action("Index", "Contact")">Contact</a>
+            @{
+                var userRole = Context.Session.GetString("UserRole");
+            }
+            @if (userRole == "Admin")
+            {
+                <a href="@Url.Action("AddProduct", "Admin")">Ürün Ekle</a>
+                <a href="@Url.Action("ManageUsers", "Admin")">Kullanıcı İşlemleri</a>
+            }
+
+
+        </div>
+        <div class="icon">
+            <a href="@Url.Action("", "")">
+                <img src="images/arama.png" alt="Search">
+            </a>
+            <a href="@Url.Action("Girisyap", "User")">
+                <img src="images/login.png" alt="Login">
+            </a>
+            <a href="@Url.Action("", "")">
+                <img src="images/sepet.png" alt="Cart">
+            </a>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <form method="get" class="form-sidebar">
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="">All Categories</option>
+                    <option value="Flowers">Flowers</option>
+                    <option value="Flower Arrangements">Flower Arrangements</option>
+                    <option value="Weddings & Events">Weddings & Events</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="price-range">Price Range</label>
+                <select id="price-range" name="priceRange">
+                    <option value="">All Prices</option>
+                    <option value="0-50">0 - 50</option>
+                    <option value="50-100">50 - 100</option>
+                    <option value="100+">100+</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label for="stock">Stock Status</label>
+                <select id="stock" name="stock">
+                    <option value="">All</option>
+                    <option value="inStock">In Stock</option>
+                    <option value="outOfStock">Out of Stock</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Minimum Rating</label>
+                <select id="rating" name="rating">
+                    <option value="">Any</option>
+                    <option value="1">1 Star & Up</option>
+                    <option value="2">2 Stars & Up</option>
+                    <option value="3">3 Stars & Up</option>
+                    <option value="4">4 Stars & Up</option>
+                    <option value="5">5 Stars</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fragrance">Fragrance</label>
+                <select id="fragrance" name="fragrance">
+                    <option value="">Any</option>
+                    <option value="fragrant">Fragrant</option>
+                    <option value="nonFragrant">Non-Fragrant</option>
+                    
+                </select>
+                 <button type="submit">Apply Filters</button>
+            </div>
+
+           
+        </form>
+
+
+        <div class="content">
+            <div class="shop-items">
+                @foreach (var product in Model)
+                {
+                    <div class="shop-item">
+                        <img src="@product.ImagePath" alt="kljhggf">
+
+                        <h4>@product.ProductName</h4>
+                        <p>@product.Description</p>
+                        <p class="price">@product.Price.ToString("C")</p>
+                        <button onclick="window.location.href='@Url.Action("Details", "Shop", new { id = product.ID })'">
+BUY NOW
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div
+            style="background-color: #fff; padding: 30px 20px; text-align: center; color: #777; border-top: 1px solid #ddd;">
+            <div style="margin-bottom: 20px;">
+                <p style="font-size: 18px; font-weight: bold; color: #6d6a5d;">Download Our Mobile App</p>
+                <img src="images/qr.png" alt="QR Kod ile İndirin" style="width: 100px; margin: 10px auto;">
+                <p style="font-size: 14px; color: #777;">Download our app now with a QR code.</p>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; margin-bottom: 30px;">
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Useful
+                        Information</h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Flower Care</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Order Update
+                                Processes</a>
+                        </li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Seasonal Flowers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Corporate
+                    </h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">About us</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Career Opportunities</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Personal Data</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #6d6a5d;">Special
+                        Occasions
+                    </h4>
+                    <ul style="list-style: none; padding: 0; font-size: 14px; color: #777;">
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Valentine's Day</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Mother's Day</a></li>
+                        <li><a href="#" style="color: #d9bdb7; text-decoration: none;">Christmas Gifts</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="font-size: 14px; color: #777; margin-top: 20px;">
+                <p>&copy; Blossom Boutique | Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
