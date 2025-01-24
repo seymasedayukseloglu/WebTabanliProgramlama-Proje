@@ -26,14 +26,7 @@
             <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
             <ul>
                 <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
-                <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>          
-                
-
-
-
-
-
-                
+                <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
             </ul>     
         </article>
         <article id="shop">
