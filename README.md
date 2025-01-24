@@ -74,6 +74,7 @@
                 <li><strong>İçerik ve Özellikler:</strong> Admin Girişi, Ürün Yönetimi, Kullanıcı Yönetimi</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> ASP.NET MVC, HTML/CSS</li>
             </ul>
+              <img src="https://github.com/user-attachments/assets/4f0da757-2a25-47bc-8920-4d3e3c082d02" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
         <article id="product-management">
             <h3>7. Ürün Yönetim Paneli</h3>
@@ -81,6 +82,7 @@
             <ul>
                 <li><strong>Özellikler:</strong> Başarı Mesajı, Ürün Ekleme Formu, Ürün Listesi</li>
             </ul>
+             <img src="https://github.com/user-attachments/assets/e4c150f3-9401-42a9-beb1-309634b22d4d" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
         <article id="user-management">
             <h3>8. Kullanıcılar Listesi</h3>
@@ -88,7 +90,9 @@
             <ul>
                 <li><strong>Özellikler:</strong> Kullanıcı Listesi, Başarı Mesajı</li>
             </ul>
+            <img src="https://github.com/user-attachments/assets/8c3e7f35-7524-4150-b7c0-df21aff58f81" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
     </section>
 </body>
+
 </html>
