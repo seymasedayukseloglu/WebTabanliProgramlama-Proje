@@ -7,14 +7,10 @@
 </head>
 <body>
     <h1>Blossom Boutique</h1>
-
     <h3>Proje Hakkında:</h3>
     <p>Blossom Boutique, çiçek ve çiçek buketi satışı için tasarlanmış modern bir web platformudur. Kullanıcılar, farklı kategorilerdeki çiçekleri inceleyebilir, kendi buketlerini oluşturabilir ve hızlı bir şekilde sipariş verebilir. Bu proje, çiçek alışverişini daha keyifli ve kolay hale getirmek amacıyla geliştirilmiştir.</p>
-
     <hr>
-
     <h2>Sayfalar</h2>
-
     <h3>1. Admin Paneli Sayfası</h3>
     <h4>Genel Açıklama:</h4>
     <p>Admin Paneli sayfası, site yönetimi için kullanılan bir paneldir. Admin kullanıcıları bu sayfadan ürün ekleyebilir, mevcut ürünleri yönetebilir, kullanıcıları kontrol edebilir ve site ayarlarına erişebilirler.</p>
@@ -29,9 +25,7 @@
         <li>ASP.NET MVC: Backend yapısı.</li>
         <li>HTML/CSS: Tasarım ve frontend kısmı.</li>
     </ul>
-
-    <hr>
-
+   <hr>
     <h3>2. Shop Sayfası</h3>
     <h4>Genel Açıklama:</h4>
     <p>Shop sayfası, kullanıcıların ürünleri görüntüleyebildiği, filtreleme ve sıralama gibi işlemleri gerçekleştirebildiği, ayrıca ürün detaylarına ulaşabildiği bir sayfadır. Kullanıcılar bu sayfa üzerinden alışverişe başlayabilirler.</p>
@@ -64,9 +58,7 @@
         <li>ASP.NET: Model ve backend entegrasyonu.</li>
         <li>Session Kontrolü: Kullanıcı rolü yönetimi.</li>
     </ul>
-
     <hr>
-
     <h3>3. About Us Sayfası</h3>
     <h4>Genel Açıklama:</h4>
     <p>About Us (Hakkımızda) sayfası, ziyaretçilere mağaza hakkında bilgi verir. Mağaza misyonu, vizyonu ve sunduğu hizmetler hakkında detaylı bilgiler içerir.</p>
@@ -81,9 +73,7 @@
         <li>HTML/CSS: Sayfa düzeni ve görsel tasarım.</li>
         <li>JavaScript: Sayfa animasyonları ve etkileşimli öğeler.</li>
     </ul>
-
     <hr>
-
     <h3>4. Contact Sayfası</h3>
     <h4>Genel Açıklama:</h4>
     <p>Contact sayfası, ziyaretçilerin mağaza ile iletişim kurabileceği bir sayfadır. Formlar aracılığıyla soru, öneri veya şikayetlerini gönderebilirler.</p>
@@ -98,9 +88,7 @@
         <li>HTML/CSS: Form tasarımı ve sayfa düzeni.</li>
         <li>JavaScript: Form doğrulama ve harita entegrasyonu.</li>
     </ul>
-
     <hr>
-
     <h3>5. Login Sayfası</h3>
     <h4>Genel Açıklama:</h4>
     <p>Login sayfası, kullanıcıların hesaplarına giriş yapabilmesi için gerekli olan sayfadır.</p>
