@@ -30,7 +30,7 @@
                 
 
 
-![Ekran görüntüsü 2025-01-24 201954](https://github.com/user-attachments/assets/88e28e00-7417-47e2-9266-e0c2451104c2)
+
 
 
                 
