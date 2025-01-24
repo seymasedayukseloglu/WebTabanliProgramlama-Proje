@@ -46,6 +46,7 @@
                 <li><strong>İçerik ve Özellikler:</strong> Misyon ve Vizyon, Takım Bilgileri, İletişim Bilgileri</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, JavaScript</li>
             </ul>
+                       <img src="https://github.com/user-attachments/assets/93574b1a-b04f-46ba-96b5-888c1ed6093e" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
         <article id="contact">
             <h3>4. Contact Sayfası</h3>
@@ -54,6 +55,7 @@
                 <li><strong>İçerik ve Özellikler:</strong> İletişim Formu, Harita, İletişim Bilgileri</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, JavaScript</li>
             </ul>
+                       <img src="https://github.com/user-attachments/assets/6145bc58-19a4-47a5-8e57-fea1ae247775" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         </article>
         <article id="login">
             <h3>5. Login Sayfası</h3>
@@ -61,7 +63,7 @@
             <ul>
                 <li><strong>İçerik ve Özellikler:</strong> Giriş Formu, Hesap Oluşturma Bağlantısı, Şifreyi Unuttum Bağlantısı</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, ASP.NET</li>
-            </ul>
+            </ul>   
         </article>
          <article id="admin-panel">
             <h3>6. Admin Paneli Sayfası</h3>
