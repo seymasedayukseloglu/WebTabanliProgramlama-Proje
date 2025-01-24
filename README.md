@@ -21,15 +21,19 @@
 </section>
     <section id="pages">
         <h2>Sayfalar</h2>
- <article id="home">
-            <h3>1. Home Sayfası</h3>
-            <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
-            <ul>
-                <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
-                <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
-            </ul>  
-     ![home](https://github.com/user-attachments/assets/9c5408f6-07fc-415c-a435-9dbf4616f7e6)
-        </article>
+<article id="home">
+    <h3>1. Home Sayfası</h3>
+    <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
+    <ul>
+        <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
+        <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
+    </ul>
+    <figure>
+        <img src="https://github.com/user-attachments/assets/raw/main/9c5408f6-07fc-415c-a435-9dbf4616f7e6" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
+        <figcaption>Home Sayfası Görseli</figcaption>
+    </figure>
+</article>
+
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
             <p><strong>Genel Açıklama:</strong> Shop sayfası, kullanıcıların ürünleri görüntüleyebildiği, filtreleme ve sıralama gibi işlemleri gerçekleştirebildiği, ayrıca ürün detaylarına ulaşabildiği bir sayfadır.</p>
