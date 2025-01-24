@@ -1,4 +1,4 @@
-![Ekran görüntüsü 2025-01-24 185942](https://github.com/user-attachments/assets/eb549369-fd1e-4d8a-9ab5-53c6d48e55c6)<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,7 @@
             <ul>
                 <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>
-                 <img src="https://github.com/user-attachments/assets/f4520881-718e-4348-862a-065f5a0a4a2a"alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;" />
+               ![Ekran görüntüsü 2025-01-24 185942](https://github.com/user-attachments/assets/eb549369-fd1e-4d8a-9ab5-53c6d48e55c6)
         </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
