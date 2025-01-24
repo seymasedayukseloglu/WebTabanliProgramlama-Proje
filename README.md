@@ -88,9 +88,5 @@
             </ul>
         </article>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Blossom Boutique. Tüm hakları saklıdır.</p>
-    </footer>
 </body>
 </html>
