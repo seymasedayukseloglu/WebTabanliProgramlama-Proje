@@ -38,7 +38,7 @@
                 <li><strong>İçerik ve Özellikler:</strong> Ürün Listesi, Filtreleme ve Arama, Admin Yetkileri, Mobil Uygulama İndirimi</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML/CSS, ASP.NET, Session Kontrolü</li>
             </ul>
-        </article>
+              <img src="https://github.com/user-attachments/assets/97a066a2-4478-4798-84d7-adbb2a0b4439" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         <article id="about-us">
             <h3>3. About Us Sayfası</h3>
             <p><strong>Genel Açıklama:</strong> About Us (Hakkımızda) sayfası, ziyaretçilere mağaza hakkında bilgi verir. Mağaza misyonu, vizyonu ve sunduğu hizmetler hakkında detaylı bilgiler içerir.</p>
