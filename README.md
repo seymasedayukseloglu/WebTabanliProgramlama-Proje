@@ -30,7 +30,6 @@
         <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
     </ul>
         <img src="https://raw.githubusercontent.com/kullanici-adi/depo-adi/main/gorsel.png" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
-        <figcaption>Home Sayfası Görseli</figcaption>
 </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
