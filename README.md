@@ -28,7 +28,8 @@
                 <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
             </ul>     
-![home](https://github.com/user-attachments/assets/6ca245aa-474e-4a99-b7d2-bd9155f1bed7)
+![home](https://github.com/user-attachments/assets/ebb4271b-080d-48b5-a469-5056cb222c72)
+
         </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
