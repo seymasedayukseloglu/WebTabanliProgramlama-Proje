@@ -27,9 +27,8 @@
             <ul>
                 <li><strong>Sayfa Özellikleri:</strong> Header, Logo, Navigasyon Menüsü, Hero Section, Shop Section, Footer</li>
                 <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>
-                <img src="https://github.com/seymasedayukseloglu/Proje-Odevi/assets/148879631/2b44c8cb-1be6-4c3b-bc4a-8fd1848ad8b2.png" alt="Labirent Ekran Görüntüsü" style="max-width: 50%; height: auto;">
-                ![Ekran görüntüsü 2025-01-24 185942](https://github.com/user-attachments/assets/6fdaa1e3-5860-4479-b865-3254fad91181)
-            </ul>
+                <im![Ekran görüntüsü 2025-01-24 185942](https://github.com/user-attachments/assets/228685f5-4f9b-4145-8c1f-ca0485332bc0)
+g src="https://github.com/seymasedayukseloglu/Proje-Odevi/assets/148879631/2b44c8cb-1be6-4c3b-bc4a-8fd1848ad8b2.png" alt="Labirent Ekran Görüntüsü" style="max-width: 50%; height: auto;">
         </article>
         <article id="shop">
             <h3>2. Shop Sayfası</h3>
