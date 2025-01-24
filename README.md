@@ -22,6 +22,7 @@
     <section id="pages">
         <h2>Sayfalar</h2>
 <article id="home">
+<article id="home">
     <h3>1. Home Sayfası</h3>
     <p><strong>Genel Açıklama:</strong> Blossom Boutique ana sayfası, modern ve şık bir tasarıma sahiptir.</p>
     <ul>
@@ -29,7 +30,7 @@
         <li><strong>Kullanılan Teknolojiler:</strong> HTML5, CSS3, JavaScript</li>                
     </ul>
     <figure>
-        <img src="https://github.com/user-attachments/assets/raw/main/9c5408f6-07fc-415c-a435-9dbf4616f7e6" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
+        <img src="https://raw.githubusercontent.com/kullanici-adi/depo-adi/main/gorsel.png" alt="Home Sayfası Görseli" style="max-width: 50%; height: auto;">
         <figcaption>Home Sayfası Görseli</figcaption>
     </figure>
 </article>
